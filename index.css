@@ -1,0 +1,78 @@
+body{
+    padding:0px;
+    margin: 0px;
+}
+.header{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    align-items:center;
+    width: 40%;
+    justify-content:space-between;
+    padding-right: 20px;
+}
+.menu{
+    color: rgb(209, 18, 209);
+    font-size:  25px;
+    text-decoration: none;
+}
+.drama{
+    padding:10px ;
+}
+.list{
+   width: 30%;
+}
+.font{
+    display: flex;
+    justify-content:space-between;
+    background-color:whitesmoke;
+    color:rgb(151, 74, 223);
+    font-size: 20px;
+    padding:0px 10px ;
+    margin-top:-5px;
+    transition: all 0.5s ease;
+}
+.listofDramas{
+    display: flex;
+    justify-content:space-between; 
+}
+.list:hover .font{
+    background-color: plum;
+}
+.down{
+     padding:10px; 
+    display: flex;
+    justify-content: space-between;
+}
+.down .content{
+    padding-top: 0px ;
+    width: 400px;
+}
+.img{
+    padding-top: 50px;
+    margin: 5.6px;
+}
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height: 80px; 
+    color: aliceblue;
+    padding: 0px 0px 20px 20px;
+}
+.complain{
+    display: flex;
+    align-items:center;
+    width: 40%;
+    justify-content:space-between;
+    padding-right: 20px;
+}
+.subscribe{
+    width: 30%;
+}
